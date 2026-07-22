@@ -114,3 +114,11 @@ Through this project I learned how to:
 The cleaned dataset will be used to build and evaluate a Customer Churn Prediction model using machine learning algorithms.
 
 ---
+
+
+## Customer Churn Data Preprocessing
+
+If GitHub is unable to preview the notebook, please download
+`day2_customer_churn_cleaning.ipynb` and open it in Jupyter Notebook or VS Code.
+
+The notebook has been validated and runs correctly locally.
