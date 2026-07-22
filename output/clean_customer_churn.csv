@@ -1,0 +1,421 @@
+customer_id,age,gender,tenure_months,contract_type,payment_method,monthly_charges,total_charges,num_support_tickets,signup_date,has_churned,avg_charge_per_month,tenure_group,high_support,is_senior
+CUST00121,43.0,f,70.0,month-to-month,credit card,59.74,4178.01,0.0,2019-09-17,false,59.685857142857145,4+ Years,0,0
+CUST00178,27.0,female,47.0,two year,bank transfer,112.67,5319.53,2.0,2022-03-13,yes,113.18148936170212,2-4 Years,0,0
+CUST00222,43.0,female,0.0,one year,credit card,69.5,0.0,1.0,2021-11-24,true,0.0,,0,0
+CUST00378,60.0,male,44.0,one year,electronic check,87.66,3832.18,3.0,2022-10-25,true,87.095,2-4 Years,1,1
+CUST00279,21.0,female,50.0,month-to-month,electronic check,54.93,2125.99,1.0,2022-05-24,no,42.5198,4+ Years,0,0
+CUST00133,23.0,female,70.0,month-to-month,mailed check,58.99,2125.99,1.0,2020-07-10,0,30.371285714285712,4+ Years,0,0
+CUST00214,43.0,male,14.0,month-to-month,credit card,120.52,1688.4,0.0,2022-04-28,1,120.60000000000001,1-2 Years,0,0
+CUST00053,38.0,unknown,56.0,month-to-month,electronic check,29.78,1665.94,0.0,2022-09-27,no,29.74892857142857,4+ Years,0,0
+CUST00243,23.0,female,16.0,two year,bank transfer,49.6,782.19,1.0,2021-06-08,n,48.886875,1-2 Years,0,0
+CUST00366,47.0,female,71.0,month-to-month,credit card,48.45,3441.05,2.0,2019-06-26,1,48.465492957746484,4+ Years,0,0
+CUST00156,55.0,male,56.0,month-to-month,electronic check,69.94,3903.04,2.0,2023-11-12,false,69.69714285714285,4+ Years,0,0
+CUST00406,46.0,female,28.0,month-to-month,credit card,104.8,2950.81,1.0,2020-02-27,y,105.38607142857143,2-4 Years,0,0
+CUST00083,27.0,female,8.0,one year,mailed check,51.38,421.57,0.0,2019-12-26,true,52.69625,New,0,0
+CUST00254,36.0,male,23.0,month-to-month,electronic check,105.25,2125.99,2.0,2019-10-31,y,92.43434782608695,1-2 Years,0,0
+CUST00201,38.0,f,56.0,month-to-month,electronic check,65.63,2125.99,2.0,2020-04-04,0,37.96410714285714,4+ Years,0,0
+CUST00052,29.0,female,25.0,two year,mailed check,54.65,1366.32,1.0,2021-02-27,false,54.6528,2-4 Years,0,0
+CUST00269,52.0,female,1.0,two year,credit card,67.8,87.85,1.0,2021-06-08,yes,87.85,New,0,0
+CUST00031,43.0,f,16.0,one year,electronic check,133.3,2125.35,2.0,2021-06-08,no,132.834375,1-2 Years,0,0
+CUST00259,27.0,unknown,35.0,two year,bank transfer,81.75,2847.21,2.0,2019-08-14,n,81.34885714285714,2-4 Years,0,0
+CUST00140,42.0,male,21.0,month-to-month,credit card,84.6,1784.88,0.0,2019-02-13,0,84.99428571428572,1-2 Years,0,0
+CUST00081,71.0,female,38.0,month-to-month,mailed check,97.75,3713.9,1.0,2023-09-20,y,97.73421052631579,2-4 Years,0,1
+CUST00146,66.0,female,11.0,two year,electronic check,63.0,698.33,2.0,2019-08-17,y,63.48454545454546,New,0,1
+CUST00057,49.0,m,51.0,month-to-month,bank transfer,69.5,1075.55,0.0,2020-10-29,yes,21.08921568627451,4+ Years,0,0
+CUST00116,50.0,f,69.0,two year,credit card,69.5,6256.07,2.0,2019-08-02,y,90.66768115942028,4+ Years,0,0
+CUST00396,67.0,f,16.0,month-to-month,bank transfer,38.39,613.25,2.0,2020-05-16,no,38.328125,1-2 Years,0,1
+CUST00411,27.0,female,54.0,month-to-month,credit card,95.49,5128.05,1.0,2021-12-02,false,94.96388888888889,4+ Years,0,0
+CUST00032,30.0,female,61.0,month-to-month,bank transfer,107.0,6533.14,0.0,2021-04-13,0,107.10065573770493,4+ Years,0,0
+CUST00303,18.0,male,17.0,two year,credit card,61.77,1057.99,0.0,2019-10-14,no,62.23470588235294,1-2 Years,0,0
+CUST00149,64.0,m,0.0,month-to-month,credit card,75.44,2125.99,1.0,2023-05-10,yes,2125.99,,0,1
+CUST00335,44.0,male,50.0,month-to-month,electronic check,69.5,3463.41,0.0,2019-12-13,0,69.2682,4+ Years,0,0
+CUST00394,52.0,female,42.0,one year,credit card,65.76,2766.52,1.0,2021-06-08,n,65.86952380952381,2-4 Years,0,0
+CUST00363,45.0,male,66.0,two year,electronic check,82.38,2125.99,3.0,2023-03-18,false,32.211969696969696,4+ Years,1,0
+CUST00171,24.0,female,33.0,one year,electronic check,100.44,3302.41,1.0,2020-07-07,no,100.0730303030303,2-4 Years,0,0
+CUST00188,39.0,male,69.0,month-to-month,bank transfer,69.5,7901.28,2.0,2022-06-21,false,114.51130434782608,4+ Years,0,0
+CUST00110,58.0,female,45.0,month-to-month,credit card,88.49,3999.22,1.0,2021-04-03,1,88.87155555555555,2-4 Years,0,0
+CUST00249,62.0,female,62.0,month-to-month,bank transfer,67.83,4194.69,1.0,2023-02-09,yes,67.65629032258065,4+ Years,0,1
+CUST00314,34.0,female,58.0,month-to-month,electronic check,57.16,3317.28,1.0,2023-08-03,n,57.194482758620694,4+ Years,0,0
+CUST00239,35.0,male,33.0,one year,bank transfer,69.5,3547.59,2.0,2022-08-21,n,107.50272727272727,2-4 Years,0,0
+CUST00148,31.0,female,62.0,month-to-month,mailed check,47.97,2980.78,2.0,2019-09-21,0,48.07709677419355,4+ Years,0,0
+CUST00003,55.0,male,32.0,month-to-month,credit card,139.19,4430.9,1.0,2020-04-03,0,138.465625,2-4 Years,0,0
+CUST00130,54.0,female,65.0,month-to-month,bank transfer,40.28,2614.6,0.0,2019-06-18,0,40.22461538461538,4+ Years,0,0
+CUST00323,53.0,male,37.0,two year,mailed check,76.7,2836.77,2.0,2020-01-28,0,76.66945945945946,2-4 Years,0,0
+CUST00351,48.0,male,55.0,month-to-month,bank transfer,32.86,1811.6,1.0,2019-09-10,y,32.93818181818182,4+ Years,0,0
+CUST00386,24.0,male,21.0,two year,mailed check,42.85,2125.99,3.0,2022-09-13,false,101.23761904761903,1-2 Years,1,0
+CUST00174,59.0,male,34.5,two year,bank transfer,78.97,3156.49,0.0,2021-06-08,no,91.49246376811594,2-4 Years,0,0
+CUST00377,45.0,male,11.0,month-to-month,electronic check,68.73,750.58,0.0,2020-12-14,no,68.23454545454545,New,0,0
+CUST00061,70.0,male,8.0,month-to-month,bank transfer,47.81,394.39,2.0,2021-11-23,y,49.29875,New,0,1
+CUST00403,36.0,female,13.0,month-to-month,credit card,46.39,582.9,0.0,2021-11-14,true,44.83846153846154,1-2 Years,0,0
+CUST00189,31.0,male,53.0,one year,electronic check,64.66,3432.87,1.0,2023-04-20,no,64.7711320754717,4+ Years,0,0
+CUST00373,41.0,male,6.0,one year,bank transfer,80.01,468.68,3.0,2020-05-20,0,78.11333333333333,New,1,0
+CUST00298,43.0,female,55.0,month-to-month,mailed check,69.5,2494.06,0.0,2021-09-04,0,45.346545454545456,4+ Years,0,0
+CUST00027,40.0,male,65.0,two year,mailed check,109.25,7110.26,0.0,2019-08-21,0,109.38861538461539,4+ Years,0,0
+CUST00414,25.0,male,54.0,one year,bank transfer,58.25,3131.5,1.0,2021-10-24,no,57.99074074074074,4+ Years,0,0
+CUST00255,55.0,f,34.5,one year,electronic check,77.74,1337.28,1.0,2022-04-10,0,38.76173913043478,2-4 Years,0,0
+CUST00163,41.0,m,42.0,month-to-month,bank transfer,66.95,2809.01,0.0,2023-04-13,no,66.88119047619048,2-4 Years,0,0
+CUST00379,39.0,female,13.0,one year,mailed check,68.13,899.2,1.0,2022-03-28,no,69.16923076923078,1-2 Years,0,0
+CUST00260,51.0,female,33.0,month-to-month,credit card,69.5,2916.63,4.0,2020-08-06,1,88.38272727272728,2-4 Years,1,0
+CUST00213,62.0,male,32.0,month-to-month,mailed check,62.2,2021.31,0.0,2019-08-06,false,63.1659375,2-4 Years,0,1
+CUST00066,36.0,male,13.0,one year,electronic check,84.72,1082.14,2.0,2020-11-08,y,83.24153846153847,1-2 Years,0,0
+CUST00397,20.0,f,61.0,month-to-month,electronic check,40.76,2503.89,0.0,2023-04-27,0,41.04737704918033,4+ Years,0,0
+CUST00090,65.0,female,42.0,one year,mailed check,59.11,2479.07,3.0,2021-08-03,false,59.0254761904762,2-4 Years,1,1
+CUST00246,22.0,male,17.0,one year,electronic check,104.31,1745.45,1.0,2019-01-21,n,102.6735294117647,1-2 Years,0,0
+CUST00160,62.0,female,34.0,month-to-month,bank transfer,50.95,1709.2,2.0,2023-10-21,1,50.27058823529412,2-4 Years,0,1
+CUST00015,58.0,male,54.0,month-to-month,mailed check,107.55,5797.71,2.0,2023-10-20,yes,107.365,4+ Years,0,0
+CUST00142,30.0,m,17.0,two year,mailed check,70.91,1213.16,1.0,2023-08-22,false,71.36235294117648,1-2 Years,0,0
+CUST00194,45.0,male,17.0,two year,electronic check,60.71,1013.31,1.0,2022-04-27,0,59.60647058823529,1-2 Years,0,0
+CUST00004,43.0,female,59.0,month-to-month,bank transfer,90.86,5338.77,1.0,2021-06-08,y,90.48762711864407,4+ Years,0,0
+CUST00304,69.0,male,66.0,two year,mailed check,64.65,4275.48,0.0,2021-10-29,1,64.77999999999999,4+ Years,0,1
+CUST00205,44.0,male,61.0,month-to-month,mailed check,85.36,5205.94,0.0,2020-05-15,0,85.34327868852458,4+ Years,0,0
+CUST00224,29.0,f,8.0,one year,mailed check,90.99,754.93,2.0,2020-10-19,1,94.36625,New,0,0
+CUST00328,20.0,male,5.0,month-to-month,bank transfer,52.5,252.0,2.0,2022-01-09,yes,50.4,New,0,0
+CUST00282,45.0,female,17.0,month-to-month,bank transfer,53.03,922.88,2.0,2019-01-22,false,54.287058823529414,1-2 Years,0,0
+CUST00166,64.0,male,58.0,month-to-month,bank transfer,100.8,5853.29,0.0,2021-06-08,0,100.91879310344828,4+ Years,0,1
+CUST00289,48.0,male,35.0,one year,mailed check,108.43,3823.92,1.0,2022-03-26,0,109.25485714285715,2-4 Years,0,0
+CUST00029,49.0,male,7.0,month-to-month,bank transfer,61.19,424.45,2.0,2023-03-29,y,60.635714285714286,New,0,0
+CUST00042,61.0,female,28.0,one year,bank transfer,15.0,387.07,6.0,2020-05-01,no,13.82392857142857,2-4 Years,1,1
+CUST00221,25.0,f,10.0,two year,credit card,79.73,2125.99,3.0,2021-01-11,0,212.599,New,1,0
+CUST00023,28.0,female,28.0,one year,mailed check,73.75,2039.16,3.0,2023-02-04,0,72.82714285714286,2-4 Years,1,0
+CUST00297,66.0,male,64.0,month-to-month,electronic check,72.25,4600.52,0.0,2023-07-27,no,71.883125,4+ Years,0,1
+CUST00033,23.0,m,31.0,two year,credit card,97.98,3049.91,1.0,2019-12-30,no,98.38419354838709,2-4 Years,0,0
+CUST00119,31.0,female,36.0,month-to-month,credit card,83.53,3011.0,2.0,2019-08-03,false,83.63888888888889,2-4 Years,0,0
+CUST00264,70.0,male,10.0,two year,mailed check,69.5,761.93,2.0,2023-09-20,0,76.193,New,0,1
+CUST00058,26.0,male,42.0,month-to-month,bank transfer,87.65,3686.98,0.0,2021-11-24,y,87.7852380952381,2-4 Years,0,0
+CUST00383,72.0,male,32.0,two year,mailed check,69.5,2322.47,1.0,2020-08-20,no,72.5771875,2-4 Years,0,1
+CUST00063,38.0,male,39.0,month-to-month,bank transfer,58.95,2320.19,1.0,2019-05-16,y,59.492051282051285,2-4 Years,0,0
+CUST00353,35.0,f,48.0,two year,mailed check,26.09,1262.67,0.0,2023-07-03,y,26.305625000000003,2-4 Years,0,0
+CUST00307,35.0,male,69.0,one year,bank transfer,69.5,5875.01,3.0,2020-04-04,no,85.14507246376812,4+ Years,1,0
+CUST00085,53.0,f,13.0,month-to-month,mailed check,85.41,1121.09,0.0,2019-01-12,n,86.2376923076923,1-2 Years,0,0
+CUST00361,66.0,male,19.0,one year,credit card,104.98,1998.29,1.0,2019-08-28,y,105.17315789473685,1-2 Years,0,1
+CUST00315,31.0,female,10.0,month-to-month,bank transfer,77.28,766.08,1.0,2023-08-10,no,76.608,New,0,0
+CUST00355,73.0,female,4.0,two year,bank transfer,102.17,422.35,1.0,2023-04-10,true,105.5875,New,0,1
+CUST00115,46.0,female,63.0,two year,credit card,89.22,5640.77,2.0,2023-07-18,n,89.53603174603175,4+ Years,0,0
+CUST00147,19.0,female,24.0,month-to-month,credit card,115.41,2765.35,1.0,2019-12-15,true,115.22291666666666,1-2 Years,0,0
+CUST00299,34.0,male,71.0,month-to-month,credit card,68.61,4854.65,0.0,2020-09-01,y,68.37535211267605,4+ Years,0,0
+CUST00102,29.0,male,4.0,two year,bank transfer,46.05,161.02,2.0,2021-09-29,1,40.255,New,0,0
+CUST00245,53.0,male,43.0,two year,credit card,101.66,4364.33,0.0,2021-06-08,false,101.49604651162791,2-4 Years,0,0
+CUST00267,43.0,male,22.0,month-to-month,bank transfer,56.41,1221.56,0.0,2023-08-02,no,55.525454545454544,1-2 Years,0,0
+CUST00398,29.0,m,62.0,month-to-month,mailed check,37.45,2335.87,0.0,2022-06-30,no,37.67532258064516,4+ Years,0,0
+CUST00112,62.0,male,24.0,month-to-month,electronic check,135.09,3234.69,0.0,2019-02-06,yes,134.77875,1-2 Years,0,1
+CUST00097,31.0,m,24.0,two year,mailed check,31.95,797.64,0.0,2023-02-11,no,33.235,1-2 Years,0,0
+CUST00415,19.0,female,51.0,month-to-month,mailed check,65.83,2125.99,0.0,2019-11-12,n,41.68607843137254,4+ Years,0,0
+CUST00099,54.0,male,7.0,two year,electronic check,44.54,283.36,1.0,2023-02-25,no,40.480000000000004,New,0,0
+CUST00284,45.0,unknown,40.0,month-to-month,credit card,93.26,3743.18,1.0,2020-03-22,y,93.5795,2-4 Years,0,0
+CUST00175,57.0,m,23.0,month-to-month,mailed check,92.63,2136.59,0.0,2021-06-08,yes,92.89521739130436,1-2 Years,0,0
+CUST00203,46.0,male,3.0,one year,credit card,48.37,156.87,1.0,2023-04-29,no,52.29,New,0,0
+CUST00014,61.0,f,48.0,two year,credit card,52.71,2558.05,2.0,2023-09-17,false,53.29270833333334,2-4 Years,0,1
+CUST00387,21.0,female,24.0,month-to-month,electronic check,74.39,1777.97,0.0,2020-04-09,no,74.08208333333333,1-2 Years,0,0
+CUST00410,18.0,m,52.0,two year,electronic check,25.59,1329.65,2.0,2021-06-08,no,25.57019230769231,4+ Years,0,0
+CUST00390,26.0,female,60.0,month-to-month,bank transfer,74.49,4475.43,1.0,2023-05-20,0,74.5905,4+ Years,0,0
+CUST00091,42.0,f,4.0,month-to-month,mailed check,72.52,301.68,0.0,2020-01-22,false,75.42,New,0,0
+CUST00389,68.0,female,70.0,two year,credit card,26.63,1845.35,0.0,2020-07-25,no,26.362142857142857,4+ Years,0,1
+CUST00060,56.0,m,28.0,month-to-month,electronic check,77.72,2204.32,1.0,2020-02-23,false,78.72571428571429,2-4 Years,0,0
+CUST00400,35.0,male,18.0,month-to-month,bank transfer,58.44,1065.86,1.0,2023-09-03,false,59.21444444444444,1-2 Years,0,0
+CUST00165,41.0,male,34.5,one year,electronic check,56.3,1018.65,2.0,2021-10-09,false,29.526086956521738,2-4 Years,0,0
+CUST00075,57.0,f,38.0,two year,bank transfer,15.0,564.4,1.0,2021-08-23,0,14.852631578947367,2-4 Years,0,0
+CUST00080,56.0,male,29.0,one year,bank transfer,33.97,976.95,0.0,2022-04-04,false,33.68793103448276,2-4 Years,0,0
+CUST00180,46.0,female,68.0,month-to-month,credit card,90.12,6116.88,5.0,2023-10-09,n,89.95411764705882,4+ Years,1,0
+CUST00345,69.0,female,8.0,month-to-month,credit card,69.5,2125.99,1.0,2020-01-06,true,265.74875,New,0,1
+CUST00402,62.0,female,43.0,month-to-month,mailed check,59.93,2570.42,2.0,2019-06-14,yes,59.77720930232558,2-4 Years,0,1
+CUST00082,42.0,m,9.0,two year,credit card,103.92,911.55,3.0,2021-02-16,1,101.28333333333333,New,1,0
+CUST00139,37.0,f,1.0,month-to-month,electronic check,78.19,84.91,1.0,2021-01-06,0,84.91,New,0,0
+CUST00051,61.0,male,37.0,month-to-month,mailed check,87.1,3241.16,2.0,2021-06-08,false,87.59891891891891,2-4 Years,0,1
+CUST00272,19.0,male,0.0,month-to-month,credit card,47.56,0.0,2.0,2019-09-24,1,0.0,,0,0
+CUST00342,34.0,male,53.0,month-to-month,mailed check,79.14,2125.99,1.0,2021-09-14,false,40.113018867924524,4+ Years,0,0
+CUST00164,41.0,male,48.0,month-to-month,mailed check,15.19,748.55,0.0,2022-01-26,no,15.594791666666666,2-4 Years,0,0
+CUST00365,24.0,female,39.0,month-to-month,bank transfer,79.83,3107.78,1.0,2022-09-17,false,79.68666666666667,2-4 Years,0,0
+CUST00207,61.0,male,45.0,month-to-month,credit card,82.01,3661.8,0.0,2022-11-01,n,81.37333333333333,2-4 Years,0,1
+CUST00247,61.0,female,65.0,one year,bank transfer,45.22,2952.38,1.0,2019-10-08,false,45.42123076923077,4+ Years,0,1
+CUST00054,44.0,m,61.0,month-to-month,bank transfer,69.5,5305.51,0.0,2020-03-17,n,86.9755737704918,4+ Years,0,0
+CUST00223,58.0,female,20.0,month-to-month,electronic check,17.52,370.61,1.0,2021-05-04,n,18.5305,1-2 Years,0,0
+CUST00208,73.0,female,27.0,one year,credit card,80.19,2170.31,1.0,2023-12-04,false,80.38185185185185,2-4 Years,0,1
+CUST00293,72.0,female,38.0,month-to-month,credit card,103.83,3951.46,0.0,2022-08-30,0,103.9857894736842,2-4 Years,0,1
+CUST00067,69.0,male,48.0,month-to-month,bank transfer,58.85,2832.61,1.0,2022-01-26,y,59.012708333333336,2-4 Years,0,1
+CUST00354,42.0,f,49.0,two year,credit card,64.01,3150.31,1.0,2021-09-15,n,64.29204081632653,4+ Years,0,0
+CUST00374,39.0,male,63.0,month-to-month,mailed check,15.0,919.37,0.0,2022-09-04,no,14.593174603174603,4+ Years,0,0
+CUST00244,55.0,male,23.0,two year,credit card,45.91,1047.14,0.0,2020-03-16,1,45.52782608695652,1-2 Years,0,0
+CUST00100,25.0,m,26.0,month-to-month,mailed check,72.56,1907.92,1.0,2021-01-08,n,73.38153846153847,2-4 Years,0,0
+CUST00016,62.0,female,51.0,month-to-month,mailed check,88.74,4524.46,1.0,2023-11-01,no,88.71490196078432,4+ Years,0,1
+CUST00241,25.0,male,38.0,month-to-month,credit card,68.17,2589.86,2.0,2022-07-05,true,68.1542105263158,2-4 Years,0,0
+CUST00236,59.0,female,31.0,month-to-month,mailed check,81.73,2534.81,0.0,2022-04-15,false,81.76806451612903,2-4 Years,0,0
+CUST00087,23.0,f,61.0,month-to-month,electronic check,23.47,1418.99,2.0,2023-10-30,no,23.262131147540984,4+ Years,0,0
+CUST00038,65.0,female,48.0,month-to-month,mailed check,64.04,3084.52,0.0,2022-03-03,0,64.26083333333334,2-4 Years,0,1
+CUST00356,74.0,female,12.0,month-to-month,electronic check,22.26,265.56,1.0,2021-10-10,true,22.13,New,0,1
+CUST00329,26.0,male,62.0,two year,bank transfer,61.32,2125.99,2.0,2023-02-02,0,34.29016129032258,4+ Years,0,0
+CUST00074,25.0,unknown,58.0,two year,credit card,61.14,3546.81,0.0,2020-07-31,yes,61.151896551724136,4+ Years,0,0
+CUST00416,56.0,male,70.0,two year,credit card,88.74,6239.46,1.0,2020-07-19,no,89.13514285714285,4+ Years,0,0
+CUST00105,63.0,male,39.0,month-to-month,mailed check,94.89,3708.91,2.0,2020-02-09,y,95.1002564102564,2-4 Years,0,1
+CUST00262,27.0,male,51.0,month-to-month,mailed check,49.43,2531.96,0.0,2022-12-08,no,49.64627450980392,4+ Years,0,0
+CUST00182,26.0,male,36.0,one year,mailed check,55.34,1981.0,1.0,2019-04-14,false,55.02777777777778,2-4 Years,0,0
+CUST00017,47.0,male,47.0,one year,bank transfer,86.29,4061.95,0.0,2023-07-30,n,86.42446808510638,2-4 Years,0,0
+CUST00388,65.0,female,47.0,month-to-month,mailed check,102.25,4802.68,1.0,2020-06-11,n,102.18468085106383,2-4 Years,0,1
+CUST00089,61.0,female,52.0,one year,electronic check,108.75,5640.71,2.0,2022-05-16,false,108.47519230769231,4+ Years,0,1
+CUST00250,20.0,female,49.0,month-to-month,mailed check,78.5,2125.99,1.0,2020-02-05,n,43.38755102040816,4+ Years,0,0
+CUST00141,45.0,f,61.0,two year,bank transfer,47.31,2870.33,0.0,2021-06-05,no,47.05459016393443,4+ Years,0,0
+CUST00103,63.0,male,25.0,month-to-month,credit card,45.42,1131.01,0.0,2020-06-23,yes,45.2404,2-4 Years,0,1
+CUST00195,72.0,female,41.0,month-to-month,electronic check,97.06,3976.86,1.0,2019-08-01,true,96.99658536585366,2-4 Years,0,1
+CUST00359,23.0,male,8.0,month-to-month,mailed check,68.42,556.82,1.0,2023-01-24,0,69.6025,New,0,0
+CUST00158,49.0,female,31.0,month-to-month,mailed check,52.46,1631.9,2.0,2019-06-09,no,52.641935483870974,2-4 Years,0,0
+CUST00071,63.0,male,32.0,one year,credit card,48.35,2125.99,2.0,2020-07-15,false,66.4371875,2-4 Years,0,1
+CUST00134,49.0,female,53.0,two year,bank transfer,103.06,5471.86,0.0,2020-08-15,1,103.24264150943395,4+ Years,0,0
+CUST00358,68.0,male,36.0,one year,mailed check,44.2,1594.6,2.0,2021-05-01,0,44.294444444444444,2-4 Years,0,1
+CUST00005,42.0,female,17.0,month-to-month,credit card,96.24,1627.28,2.0,2019-07-15,0,95.72235294117647,1-2 Years,0,0
+CUST00169,37.0,male,19.0,one year,electronic check,95.22,1804.09,1.0,2021-02-26,n,94.95210526315789,1-2 Years,0,0
+CUST00319,71.0,female,8.0,month-to-month,credit card,102.16,823.73,1.0,2019-12-16,y,102.96625,New,0,1
+CUST00327,31.0,female,59.0,two year,mailed check,44.79,2630.9,1.0,2019-11-10,no,44.59152542372882,4+ Years,0,0
+CUST00229,49.0,f,7.0,month-to-month,bank transfer,103.2,713.86,3.0,2021-11-05,true,101.98,New,1,0
+CUST00019,65.0,female,0.0,month-to-month,electronic check,69.07,0.0,0.0,2019-04-13,no,0.0,,0,1
+CUST00331,49.0,female,52.0,month-to-month,credit card,59.44,3072.27,1.0,2022-08-31,no,59.082115384615385,4+ Years,0,0
+CUST00021,46.0,male,53.0,one year,bank transfer,40.37,2131.97,0.0,2020-03-17,n,40.22584905660377,4+ Years,0,0
+CUST00056,45.0,male,21.0,two year,bank transfer,68.88,1488.59,3.0,2020-01-12,0,70.8852380952381,1-2 Years,1,0
+CUST00238,42.0,f,56.0,month-to-month,electronic check,86.0,4791.19,1.0,2021-06-08,false,85.55696428571427,4+ Years,0,0
+CUST00364,68.0,f,1.0,one year,credit card,73.64,116.32,2.0,2023-10-29,0,116.32,New,0,1
+CUST00308,49.0,f,43.0,two year,mailed check,67.8,2899.79,2.0,2021-04-24,0,67.43697674418604,2-4 Years,0,0
+CUST00035,68.0,female,68.0,one year,mailed check,47.92,3274.34,0.0,2022-09-26,no,48.152058823529416,4+ Years,0,1
+CUST00151,66.0,female,4.0,one year,mailed check,67.49,279.82,1.0,2021-10-22,n,69.955,New,0,1
+CUST00339,29.0,female,60.0,month-to-month,electronic check,58.39,3512.38,2.0,2021-06-14,false,58.53966666666667,4+ Years,0,0
+CUST00206,33.0,male,8.0,month-to-month,electronic check,85.78,677.12,1.0,2022-06-29,yes,84.64,New,0,0
+CUST00257,56.0,female,34.0,month-to-month,electronic check,69.5,1702.06,1.0,2022-09-01,false,50.06058823529412,2-4 Years,0,0
+CUST00098,56.0,female,9.0,month-to-month,credit card,95.69,881.64,0.0,2019-08-11,true,97.96,New,0,0
+CUST00341,54.0,male,21.0,one year,credit card,64.01,1340.03,1.0,2023-10-01,false,63.81095238095238,1-2 Years,0,0
+CUST00155,42.0,female,42.0,two year,mailed check,104.44,4362.84,3.0,2021-09-06,n,103.87714285714286,2-4 Years,1,0
+CUST00123,55.0,female,24.0,month-to-month,credit card,94.9,2263.23,1.0,2020-08-17,false,94.30125,1-2 Years,0,0
+CUST00114,44.0,female,30.0,month-to-month,electronic check,58.55,1771.06,0.0,2020-03-25,n,59.035333333333334,2-4 Years,0,0
+CUST00228,51.0,female,0.0,one year,mailed check,71.15,0.0,0.0,2021-12-05,false,0.0,,0,0
+CUST00285,43.0,unknown,16.0,month-to-month,credit card,50.72,822.29,0.0,2022-05-10,yes,51.393125,1-2 Years,0,0
+CUST00268,37.0,female,9.0,month-to-month,credit card,69.5,943.59,1.0,2019-10-04,y,104.84333333333333,New,0,0
+CUST00109,44.0,male,69.0,two year,electronic check,45.71,3150.62,1.0,2023-05-22,0,45.661159420289856,4+ Years,0,0
+CUST00265,74.0,male,43.0,month-to-month,mailed check,22.16,950.78,2.0,2022-03-15,false,22.111162790697673,2-4 Years,0,1
+CUST00095,69.0,female,15.0,one year,credit card,69.58,1022.97,3.0,2021-01-16,0,68.19800000000001,1-2 Years,1,1
+CUST00217,22.0,m,35.0,two year,electronic check,28.02,1011.26,2.0,2019-11-01,n,28.893142857142855,2-4 Years,0,0
+CUST00126,50.0,female,16.0,month-to-month,credit card,22.09,374.97,1.0,2019-01-02,n,23.435625,1-2 Years,0,0
+CUST00270,51.0,male,66.0,month-to-month,mailed check,75.12,4961.33,2.0,2022-10-30,0,75.17166666666667,4+ Years,0,0
+CUST00413,33.0,female,19.0,month-to-month,credit card,96.15,1799.09,1.0,2019-07-22,1,94.68894736842105,1-2 Years,0,0
+CUST00092,63.0,m,28.0,month-to-month,mailed check,69.5,2755.18,1.0,2021-06-08,0,98.39928571428571,2-4 Years,0,1
+CUST00409,71.0,male,38.0,two year,credit card,49.21,1876.95,1.0,2020-09-23,0,49.39342105263158,2-4 Years,0,1
+CUST00362,68.0,female,0.0,one year,credit card,93.86,0.0,2.0,2020-01-14,n,0.0,,0,1
+CUST00370,62.0,male,9.0,month-to-month,credit card,99.65,886.79,0.0,2021-12-05,yes,98.53222222222222,New,0,1
+CUST00352,20.0,male,10.0,month-to-month,mailed check,73.53,735.99,1.0,2020-07-11,y,73.599,New,0,0
+CUST00025,62.0,female,27.0,month-to-month,mailed check,100.23,2690.55,1.0,2021-07-28,no,99.65,2-4 Years,0,1
+CUST00278,62.0,male,7.0,one year,electronic check,90.59,655.5,1.0,2020-08-28,y,93.64285714285714,New,0,1
+CUST00334,65.0,female,1.0,one year,credit card,63.22,52.1,2.0,2021-12-27,0,52.1,New,0,1
+CUST00311,55.0,female,5.0,month-to-month,mailed check,106.18,532.08,1.0,2020-04-01,false,106.41600000000001,New,0,0
+CUST00127,22.0,m,40.0,two year,electronic check,38.51,1539.96,3.0,2019-08-13,0,38.499,2-4 Years,1,0
+CUST00382,71.0,male,3.0,month-to-month,mailed check,71.69,210.84,2.0,2019-07-19,yes,70.28,New,0,1
+CUST00079,50.0,female,55.0,month-to-month,mailed check,27.43,1523.36,1.0,2021-04-14,no,27.697454545454544,4+ Years,0,0
+CUST00233,19.0,female,2.0,month-to-month,electronic check,75.03,186.33,2.0,2022-07-16,true,93.165,New,0,0
+CUST00179,69.0,male,22.0,month-to-month,credit card,75.41,1674.65,2.0,2020-06-22,false,76.12045454545455,1-2 Years,0,1
+CUST00059,60.0,male,32.0,month-to-month,mailed check,28.5,919.97,1.0,2023-05-14,false,28.7490625,2-4 Years,0,1
+CUST00295,49.0,female,32.0,two year,credit card,49.58,1591.29,0.0,2019-07-23,0,49.7278125,2-4 Years,0,0
+CUST00320,61.0,male,43.0,one year,mailed check,49.33,2160.58,0.0,2022-03-23,no,50.2460465116279,2-4 Years,0,1
+CUST00338,45.0,male,52.0,month-to-month,mailed check,105.9,5504.09,0.0,2020-03-10,0,105.84788461538461,4+ Years,0,0
+CUST00336,64.0,male,34.5,one year,credit card,53.61,597.51,3.0,2019-04-30,no,17.319130434782608,2-4 Years,1,1
+CUST00062,60.0,male,19.0,month-to-month,bank transfer,41.0,755.0,0.0,2019-04-26,0,39.73684210526316,1-2 Years,0,1
+CUST00301,38.0,male,20.0,month-to-month,electronic check,98.51,1972.16,1.0,2023-02-17,yes,98.608,1-2 Years,0,0
+CUST00094,40.0,female,65.0,one year,electronic check,55.58,3592.9,3.0,2019-07-07,no,55.27538461538462,4+ Years,1,0
+CUST00347,74.0,m,10.0,month-to-month,bank transfer,100.82,995.31,3.0,2021-12-24,true,99.53099999999999,New,1,1
+CUST00385,19.0,m,9.0,month-to-month,electronic check,95.98,875.22,0.0,2022-09-26,1,97.24666666666667,New,0,0
+CUST00070,44.0,female,24.0,month-to-month,bank transfer,52.56,1257.2,0.0,2021-02-15,n,52.38333333333333,1-2 Years,0,0
+CUST00037,66.0,f,18.0,month-to-month,mailed check,42.48,745.99,0.0,2020-09-27,true,41.44388888888889,1-2 Years,0,1
+CUST00041,27.0,f,54.0,month-to-month,electronic check,61.13,3300.55,3.0,2021-06-08,n,61.1212962962963,4+ Years,1,0
+CUST00161,74.0,f,68.0,month-to-month,credit card,97.27,6612.44,2.0,2020-12-27,yes,97.24176470588235,4+ Years,0,1
+CUST00306,25.0,male,32.0,month-to-month,mailed check,55.37,2125.99,1.0,2019-11-26,false,66.4371875,2-4 Years,0,0
+CUST00012,73.0,male,7.0,month-to-month,mailed check,45.75,323.67,3.0,2019-04-08,y,46.23857142857143,New,1,1
+CUST00145,74.0,male,12.0,month-to-month,credit card,89.05,1084.78,0.0,2022-06-26,yes,90.39833333333333,New,0,1
+CUST00296,47.0,f,11.0,month-to-month,credit card,68.94,755.8,0.0,2020-04-07,no,68.7090909090909,New,0,0
+CUST00302,65.0,female,18.0,one year,mailed check,100.19,1810.66,0.0,2020-05-25,false,100.59222222222223,1-2 Years,0,1
+CUST00172,23.0,female,13.0,one year,electronic check,92.99,1211.47,3.0,2019-09-26,false,93.19,1-2 Years,1,0
+CUST00128,61.0,female,23.0,month-to-month,mailed check,37.17,869.98,0.0,2019-10-19,0,37.82521739130435,1-2 Years,0,1
+CUST00240,53.0,female,60.0,month-to-month,bank transfer,74.57,4486.17,2.0,2020-08-01,no,74.76950000000001,4+ Years,0,0
+CUST00309,35.0,male,65.0,month-to-month,electronic check,45.77,2983.89,1.0,2019-12-26,no,45.906,4+ Years,0,0
+CUST00185,46.0,male,10.0,one year,credit card,83.88,813.25,1.0,2020-12-09,y,81.325,New,0,0
+CUST00047,43.0,f,18.0,month-to-month,mailed check,63.16,1137.82,2.0,2019-12-09,yes,63.212222222222216,1-2 Years,0,0
+CUST00010,23.0,male,3.0,two year,electronic check,65.29,181.38,0.0,2022-05-07,0,60.46,New,0,0
+CUST00321,36.0,f,21.0,month-to-month,bank transfer,69.48,1479.38,1.0,2022-05-09,false,70.44666666666667,1-2 Years,0,0
+CUST00412,31.0,male,40.0,month-to-month,electronic check,99.0,3965.72,1.0,2021-05-03,n,99.143,2-4 Years,0,0
+CUST00177,58.0,female,30.0,one year,credit card,54.96,1639.17,4.0,2022-04-15,false,54.639,2-4 Years,1,0
+CUST00237,55.0,female,39.0,month-to-month,mailed check,126.82,4958.26,2.0,2022-11-17,0,127.1348717948718,2-4 Years,0,0
+CUST00232,66.0,unknown,35.0,one year,credit card,46.46,1640.68,2.0,2021-10-10,false,46.87657142857143,2-4 Years,0,1
+CUST00211,32.0,female,64.0,one year,mailed check,68.86,4387.04,1.0,2023-04-22,0,68.5475,4+ Years,0,0
+CUST00129,50.0,male,64.0,one year,mailed check,66.13,4248.81,0.0,2019-12-17,0,66.38765625,4+ Years,0,0
+CUST00144,41.0,unknown,23.0,month-to-month,bank transfer,75.29,1722.35,1.0,2019-07-14,y,74.88478260869564,1-2 Years,0,0
+CUST00242,51.0,female,18.0,two year,bank transfer,79.53,2125.99,0.0,2019-06-04,y,118.11055555555555,1-2 Years,0,0
+CUST00008,57.0,male,26.0,one year,mailed check,65.25,1705.83,1.0,2021-06-08,1,65.60884615384614,2-4 Years,0,0
+CUST00372,55.0,female,34.5,two year,electronic check,65.59,4174.25,0.0,2020-03-16,no,120.9927536231884,2-4 Years,0,0
+CUST00271,34.0,male,6.0,month-to-month,mailed check,99.47,2125.99,1.0,2019-12-05,1,354.33166666666665,New,0,0
+CUST00325,45.0,male,45.0,month-to-month,bank transfer,65.5,2927.73,1.0,2022-01-06,no,65.06066666666666,2-4 Years,0,0
+CUST00173,61.0,female,12.0,month-to-month,mailed check,108.04,1301.79,1.0,2021-02-08,y,108.4825,New,0,1
+CUST00218,45.0,female,28.0,month-to-month,credit card,67.29,1868.88,1.0,2021-11-27,no,66.74571428571429,2-4 Years,0,0
+CUST00317,59.0,female,39.0,month-to-month,mailed check,43.57,1703.06,1.0,2020-12-21,false,43.66820512820512,2-4 Years,0,0
+CUST00395,59.0,female,11.0,month-to-month,bank transfer,69.5,1285.2,1.0,2021-08-08,1,116.83636363636364,New,0,0
+CUST00288,50.0,female,61.0,one year,bank transfer,52.92,3224.79,2.0,2022-12-06,no,52.865409836065574,4+ Years,0,0
+CUST00009,29.0,female,68.0,month-to-month,credit card,18.63,1262.72,3.0,2022-04-29,yes,18.569411764705883,4+ Years,1,0
+CUST00157,25.0,female,45.0,one year,mailed check,90.38,4090.75,1.0,2022-08-12,n,90.90555555555555,2-4 Years,0,0
+CUST00028,64.0,female,16.0,one year,electronic check,45.05,2125.99,1.0,2021-06-08,n,132.874375,1-2 Years,0,1
+CUST00065,41.0,female,62.0,two year,bank transfer,53.89,3343.08,0.0,2022-07-18,n,53.920645161290324,4+ Years,0,0
+CUST00256,26.0,f,66.0,month-to-month,bank transfer,85.6,5648.95,1.0,2020-05-25,n,85.59015151515152,4+ Years,0,0
+CUST00275,41.0,male,58.0,two year,credit card,90.68,5249.69,1.0,2022-12-03,0,90.51189655172413,4+ Years,0,0
+CUST00154,34.0,male,57.0,month-to-month,credit card,91.2,5193.66,2.0,2022-01-03,true,91.11684210526316,4+ Years,0,0
+CUST00049,45.0,male,29.0,month-to-month,bank transfer,31.68,932.84,5.0,2020-11-16,true,32.166896551724136,2-4 Years,1,0
+CUST00209,33.0,male,55.0,two year,electronic check,61.99,3412.05,3.0,2021-09-25,0,62.03727272727273,4+ Years,1,0
+CUST00002,62.0,f,66.0,one year,credit card,72.12,2125.99,0.0,2021-12-10,0,32.211969696969696,4+ Years,0,1
+CUST00266,51.0,male,3.0,one year,credit card,95.96,2125.99,0.0,2023-04-25,y,708.6633333333333,New,0,0
+CUST00281,33.0,female,34.0,one year,mailed check,23.58,802.49,2.0,2021-08-01,no,23.60264705882353,2-4 Years,0,0
+CUST00360,60.0,female,71.0,one year,mailed check,60.86,4325.08,2.0,2022-03-25,no,60.91661971830986,4+ Years,0,1
+CUST00096,34.0,m,35.0,month-to-month,electronic check,115.55,4051.67,1.0,2021-01-16,n,115.762,2-4 Years,0,0
+CUST00417,73.0,f,10.0,one year,mailed check,79.79,779.64,2.0,2021-01-16,0,77.964,New,0,1
+CUST00274,72.0,male,13.0,two year,electronic check,65.09,2125.99,2.0,2023-07-03,y,163.53769230769228,1-2 Years,0,1
+CUST00117,20.0,female,69.0,one year,bank transfer,69.5,2125.99,1.0,2023-05-05,0,30.811449275362314,4+ Years,0,0
+CUST00046,73.0,female,48.0,month-to-month,bank transfer,67.83,3239.37,1.0,2019-03-24,true,67.486875,2-4 Years,0,1
+CUST00162,55.0,male,71.0,month-to-month,credit card,125.27,8917.31,0.0,2020-01-03,n,125.59591549295774,4+ Years,0,0
+CUST00368,36.0,female,42.0,month-to-month,credit card,42.2,1765.03,1.0,2023-02-01,n,42.02452380952381,2-4 Years,0,0
+CUST00118,25.0,female,54.0,month-to-month,electronic check,69.5,3246.72,3.0,2020-01-26,1,60.12444444444444,4+ Years,1,0
+CUST00078,30.0,male,21.0,month-to-month,electronic check,69.5,2125.99,2.0,2023-08-19,true,101.23761904761903,1-2 Years,0,0
+CUST00337,72.0,male,47.0,month-to-month,electronic check,87.28,4098.52,1.0,2022-09-03,n,87.20255319148937,2-4 Years,0,1
+CUST00064,73.0,female,63.0,month-to-month,electronic check,65.42,4116.19,1.0,2022-10-13,true,65.3363492063492,4+ Years,0,1
+CUST00231,44.0,female,19.0,two year,credit card,98.34,1889.39,0.0,2023-07-02,false,99.44157894736843,1-2 Years,0,0
+CUST00187,27.0,f,67.0,two year,electronic check,64.62,4325.67,2.0,2022-01-07,n,64.56223880597015,4+ Years,0,0
+CUST00290,44.0,female,0.0,two year,credit card,75.29,0.0,0.0,2023-10-12,true,0.0,,0,0
+CUST00200,72.0,female,37.0,month-to-month,credit card,73.64,2731.96,0.0,2020-03-15,no,73.83675675675676,2-4 Years,0,1
+CUST00294,45.0,f,44.0,one year,mailed check,106.66,4686.38,0.0,2021-12-01,n,106.50863636363637,2-4 Years,0,0
+CUST00122,56.0,male,20.0,month-to-month,bank transfer,72.24,1426.61,4.0,2020-12-23,0,71.3305,1-2 Years,1,0
+CUST00371,37.0,female,41.0,one year,credit card,75.27,3079.03,2.0,2021-04-21,0,75.09829268292684,2-4 Years,0,0
+CUST00159,46.0,male,61.0,two year,electronic check,89.15,5418.23,1.0,2020-12-06,n,88.82344262295081,4+ Years,0,0
+CUST00086,57.0,f,71.0,month-to-month,mailed check,15.0,1086.93,2.0,2021-06-08,n,15.30887323943662,4+ Years,0,0
+CUST00226,35.0,male,62.0,two year,bank transfer,107.25,6644.04,2.0,2022-06-09,0,107.16193548387096,4+ Years,0,0
+CUST00263,35.0,male,13.0,one year,mailed check,100.95,1330.17,2.0,2019-02-07,n,102.32076923076923,1-2 Years,0,0
+CUST00419,34.0,f,66.0,month-to-month,mailed check,69.5,1949.17,0.0,2020-12-02,no,29.53287878787879,4+ Years,0,0
+CUST00077,45.0,male,45.0,month-to-month,electronic check,47.47,2131.4,2.0,2020-05-07,yes,47.364444444444445,2-4 Years,0,0
+CUST00322,24.0,female,15.0,one year,electronic check,55.35,841.06,1.0,2021-06-08,false,56.07066666666666,1-2 Years,0,0
+CUST00088,35.0,female,50.0,two year,bank transfer,62.98,3152.63,0.0,2021-01-15,false,63.052600000000005,4+ Years,0,0
+CUST00183,46.0,female,67.0,two year,credit card,70.27,4690.63,1.0,2021-01-03,no,70.00940298507463,4+ Years,0,0
+CUST00106,62.0,m,1.0,month-to-month,electronic check,66.76,47.12,0.0,2021-06-08,true,47.12,New,0,1
+CUST00050,62.0,f,61.0,one year,mailed check,57.07,3483.6,1.0,2021-02-18,no,57.10819672131147,4+ Years,0,1
+CUST00006,66.0,female,2.0,two year,bank transfer,91.1,182.07,1.0,2023-07-20,n,91.035,New,0,1
+CUST00018,25.0,female,55.0,two year,bank transfer,85.54,2125.99,3.0,2022-08-23,no,38.654363636363634,4+ Years,1,0
+CUST00235,46.0,female,29.0,two year,mailed check,24.76,739.9,1.0,2023-07-23,false,25.513793103448275,2-4 Years,0,0
+CUST00343,53.0,male,59.0,month-to-month,mailed check,109.14,6449.55,1.0,2023-08-04,n,109.31440677966101,4+ Years,0,0
+CUST00107,62.0,male,21.0,one year,mailed check,71.75,1515.97,2.0,2022-09-12,0,72.18904761904761,1-2 Years,0,1
+CUST00135,63.0,female,15.0,month-to-month,mailed check,86.55,1280.37,3.0,2021-04-25,false,85.35799999999999,1-2 Years,1,1
+CUST00348,71.0,male,42.0,two year,credit card,64.46,2718.86,1.0,2022-11-24,0,64.73476190476191,2-4 Years,0,1
+CUST00227,64.0,male,11.0,month-to-month,credit card,78.97,906.1,0.0,2021-07-14,1,82.37272727272727,New,0,1
+CUST00215,60.0,female,70.0,month-to-month,bank transfer,26.63,1862.87,1.0,2021-12-22,n,26.61242857142857,4+ Years,0,1
+CUST00191,56.0,unknown,21.0,one year,credit card,117.33,2451.46,0.0,2021-07-19,no,116.73619047619047,1-2 Years,0,0
+CUST00380,32.0,male,19.0,month-to-month,credit card,41.49,777.5,1.0,2021-11-27,n,40.921052631578945,1-2 Years,0,0
+CUST00283,56.0,female,6.0,two year,mailed check,69.81,2125.99,2.0,2020-08-08,false,354.33166666666665,New,0,0
+CUST00030,43.0,m,44.0,month-to-month,credit card,82.01,3580.49,2.0,2021-03-23,false,81.37477272727273,2-4 Years,0,0
+CUST00170,19.0,female,56.0,month-to-month,mailed check,82.11,4611.18,1.0,2023-08-04,n,82.3425,4+ Years,0,0
+CUST00181,71.0,female,56.0,two year,mailed check,73.09,4101.76,1.0,2021-12-03,no,73.24571428571429,4+ Years,0,1
+CUST00101,65.0,m,5.0,month-to-month,mailed check,63.93,333.72,2.0,2022-03-18,true,66.744,New,0,1
+CUST00198,24.0,f,32.0,month-to-month,electronic check,83.55,2684.52,0.0,2019-10-06,no,83.89125,2-4 Years,0,0
+CUST00210,62.0,female,4.0,month-to-month,bank transfer,69.5,367.11,0.0,2019-01-14,false,91.7775,New,0,1
+CUST00136,35.0,female,42.0,one year,electronic check,70.4,2959.36,2.0,2021-09-14,false,70.46095238095238,2-4 Years,0,0
+CUST00404,73.0,f,39.0,month-to-month,electronic check,64.12,2507.03,0.0,2020-08-10,false,64.28282051282052,2-4 Years,0,1
+CUST00369,19.0,f,27.0,month-to-month,credit card,90.88,2477.05,0.0,2022-02-26,1,91.7425925925926,2-4 Years,0,0
+CUST00199,37.0,male,18.0,month-to-month,electronic check,76.12,1352.25,2.0,2023-01-20,yes,75.125,1-2 Years,0,0
+CUST00167,36.0,female,48.0,two year,credit card,83.83,4003.66,1.0,2019-08-12,no,83.40958333333333,2-4 Years,0,0
+CUST00332,39.0,female,24.0,one year,bank transfer,72.97,1750.52,2.0,2019-06-29,n,72.93833333333333,1-2 Years,0,0
+CUST00137,52.0,female,44.0,month-to-month,credit card,58.47,2597.59,2.0,2020-08-18,no,59.036136363636366,2-4 Years,0,0
+CUST00286,45.0,female,42.0,one year,mailed check,69.5,4689.59,1.0,2023-07-04,no,111.65690476190477,2-4 Years,0,0
+CUST00132,49.0,f,38.0,month-to-month,mailed check,50.65,2125.99,0.0,2021-09-16,true,55.94710526315789,2-4 Years,0,0
+CUST00040,54.0,male,2.0,one year,electronic check,109.82,227.05,1.0,2022-03-15,no,113.525,New,0,0
+CUST00216,33.0,female,21.0,one year,credit card,82.49,1737.02,0.0,2019-04-18,y,82.71523809523809,1-2 Years,0,0
+CUST00044,38.0,male,64.0,month-to-month,bank transfer,52.52,3363.51,0.0,2020-10-31,0,52.55484375,4+ Years,0,0
+CUST00055,45.0,female,64.0,one year,mailed check,98.08,2125.99,0.0,2022-09-27,0,33.21859375,4+ Years,0,0
+CUST00407,42.0,female,54.0,one year,electronic check,48.68,2614.49,2.0,2020-12-18,false,48.416481481481476,4+ Years,0,0
+CUST00300,19.0,female,61.0,one year,electronic check,70.13,4252.1,1.0,2020-07-30,0,69.70655737704918,4+ Years,0,0
+CUST00391,60.0,m,13.0,month-to-month,credit card,55.37,2125.99,1.0,2021-05-29,y,163.53769230769228,1-2 Years,0,1
+CUST00305,48.0,male,40.0,month-to-month,electronic check,86.61,3435.3,4.0,2023-11-22,n,85.88250000000001,2-4 Years,1,0
+CUST00036,21.0,female,37.0,two year,credit card,89.72,3297.0,1.0,2022-05-15,no,89.10810810810811,2-4 Years,0,0
+CUST00316,55.0,female,22.0,month-to-month,electronic check,129.82,2840.22,1.0,2021-06-29,n,129.10090909090908,1-2 Years,0,0
+CUST00310,24.0,f,70.0,two year,credit card,46.08,3215.23,2.0,2022-03-17,no,45.93185714285714,4+ Years,0,0
+CUST00277,44.0,male,11.0,month-to-month,mailed check,28.3,289.13,1.0,2019-12-20,n,26.284545454545455,New,0,0
+CUST00125,66.0,male,27.0,two year,bank transfer,23.94,650.01,1.0,2021-08-24,n,24.074444444444445,2-4 Years,0,1
+CUST00143,33.0,female,21.0,one year,credit card,19.21,382.49,2.0,2020-12-17,false,18.213809523809523,1-2 Years,0,0
+CUST00111,33.0,female,63.0,month-to-month,mailed check,90.48,5700.74,3.0,2019-01-31,0,90.48793650793651,4+ Years,1,0
+CUST00324,70.0,female,29.0,month-to-month,bank transfer,46.24,1311.78,4.0,2022-07-13,n,45.23379310344828,2-4 Years,1,1
+CUST00333,35.0,female,27.0,month-to-month,credit card,60.01,1606.93,1.0,2022-07-16,no,59.51592592592593,2-4 Years,0,0
+CUST00376,23.0,female,38.0,month-to-month,electronic check,67.17,2594.31,1.0,2019-06-02,0,68.27131578947369,2-4 Years,0,0
+CUST00108,55.0,female,32.0,two year,credit card,84.28,2664.88,2.0,2022-01-23,false,83.2775,2-4 Years,0,0
+CUST00013,59.0,female,67.0,two year,mailed check,65.59,4399.46,3.0,2023-05-01,false,65.66358208955224,4+ Years,1,0
+CUST00273,26.0,female,67.0,one year,electronic check,45.18,3051.95,0.0,2021-04-23,false,45.55149253731343,4+ Years,0,0
+CUST00048,45.0,m,17.0,month-to-month,electronic check,89.76,1527.62,0.0,2022-11-17,yes,89.86,1-2 Years,0,0
+CUST00204,57.0,female,3.0,one year,bank transfer,29.45,93.8,0.0,2019-03-04,0,31.266666666666666,New,0,0
+CUST00418,24.0,male,30.0,two year,electronic check,60.16,1799.83,2.0,2021-06-08,false,59.99433333333333,2-4 Years,0,0
+CUST00120,24.0,male,38.0,month-to-month,mailed check,49.31,1875.14,0.0,2020-05-09,n,49.34578947368421,2-4 Years,0,0
+CUST00022,39.0,male,53.0,one year,mailed check,15.34,796.86,0.0,2021-06-08,true,15.035094339622642,4+ Years,0,0
+CUST00084,65.0,m,41.0,month-to-month,electronic check,54.2,2251.23,0.0,2022-09-08,no,54.9080487804878,2-4 Years,0,1
+CUST00131,50.0,male,22.0,month-to-month,mailed check,52.43,1162.41,1.0,2020-07-20,n,52.83681818181819,1-2 Years,0,0
+CUST00330,49.0,female,2.0,month-to-month,bank transfer,34.28,2125.99,1.0,2020-05-15,y,1062.995,New,0,0
+CUST00230,28.0,female,36.0,month-to-month,mailed check,112.06,4007.52,2.0,2020-01-09,0,111.32,2-4 Years,0,0
+CUST00287,27.0,male,49.0,month-to-month,bank transfer,52.89,2596.64,4.0,2019-09-21,y,52.99265306122449,4+ Years,1,0
+CUST00124,44.0,f,64.0,month-to-month,bank transfer,54.89,2125.99,1.0,2021-08-10,n,33.21859375,4+ Years,0,0
+CUST00034,49.0,female,0.0,month-to-month,credit card,60.31,0.0,1.0,2023-01-27,y,0.0,,0,0
+CUST00405,46.0,male,37.0,month-to-month,bank transfer,131.46,4872.07,1.0,2021-02-23,no,131.67756756756756,2-4 Years,0,0
+CUST00020,43.0,male,62.0,month-to-month,bank transfer,74.94,4622.97,1.0,2021-04-17,n,74.56403225806451,4+ Years,0,0
+CUST00220,69.0,female,29.0,one year,bank transfer,17.87,506.36,5.0,2022-05-16,false,17.460689655172413,2-4 Years,1,1
+CUST00357,26.0,female,57.0,month-to-month,electronic check,38.01,2187.52,2.0,2019-03-31,no,38.37754385964912,4+ Years,0,0
+CUST00150,21.0,female,20.0,one year,mailed check,69.1,1382.28,3.0,2021-06-08,1,69.114,1-2 Years,1,0
+CUST00225,59.0,unknown,29.0,month-to-month,credit card,105.88,3077.1,1.0,2020-09-08,0,106.10689655172413,2-4 Years,0,0
+CUST00248,41.0,male,34.0,one year,mailed check,94.2,3220.67,0.0,2023-11-11,no,94.72558823529413,2-4 Years,0,0
+CUST00381,18.0,female,51.0,month-to-month,electronic check,66.46,3409.2,1.0,2021-08-19,no,66.84705882352941,4+ Years,0,0
+CUST00152,34.0,male,40.0,one year,mailed check,67.14,2674.77,0.0,2022-01-16,0,66.86925,2-4 Years,0,0
+CUST00318,59.0,female,57.0,month-to-month,mailed check,22.55,1267.42,2.0,2023-01-15,0,22.23543859649123,4+ Years,0,0
+CUST00292,33.0,f,61.0,month-to-month,bank transfer,66.12,4033.65,1.0,2019-07-01,no,66.12540983606557,4+ Years,0,0
+CUST00234,61.0,male,23.0,two year,electronic check,80.99,1841.88,0.0,2023-05-07,no,80.08173913043478,1-2 Years,0,1
+CUST00011,48.0,male,26.0,month-to-month,mailed check,90.29,2343.46,1.0,2022-01-02,true,90.13307692307693,2-4 Years,0,0
+CUST00280,22.0,female,44.0,two year,bank transfer,60.19,2669.06,1.0,2019-10-10,n,60.66045454545454,2-4 Years,0,0
+CUST00072,45.0,male,51.0,two year,bank transfer,28.81,1499.18,1.0,2023-01-07,0,29.395686274509806,4+ Years,0,0
+CUST00253,28.0,female,53.0,month-to-month,credit card,72.07,3810.19,1.0,2023-11-18,0,71.89037735849057,4+ Years,0,0
+CUST00093,65.0,female,35.0,month-to-month,credit card,122.67,4272.33,2.0,2021-07-31,false,122.06657142857142,2-4 Years,0,1
+CUST00350,27.0,male,9.0,one year,credit card,52.75,2125.99,0.0,2023-01-19,0,236.2211111111111,New,0,0
+CUST00375,68.0,f,29.0,month-to-month,bank transfer,77.56,2258.61,0.0,2021-06-08,yes,77.88310344827586,2-4 Years,0,1
+CUST00193,52.0,f,3.0,month-to-month,mailed check,68.25,206.45,1.0,2019-10-02,true,68.81666666666666,New,0,0
+CUST00258,23.0,female,3.0,two year,mailed check,69.5,2125.99,2.0,2021-01-22,n,708.6633333333333,New,0,0
+CUST00340,72.0,male,50.0,month-to-month,bank transfer,82.13,4104.37,1.0,2019-04-20,false,82.0874,4+ Years,0,1
+CUST00420,46.0,female,37.0,two year,credit card,72.85,2722.05,0.0,2020-04-25,no,73.56891891891892,2-4 Years,0,0
+CUST00196,22.0,female,4.0,one year,bank transfer,56.45,246.52,1.0,2021-04-01,true,61.63,New,0,0
+CUST00344,47.0,female,22.0,month-to-month,electronic check,82.72,1817.56,0.0,2019-10-16,true,82.61636363636363,1-2 Years,0,0
+CUST00138,19.0,male,47.0,month-to-month,bank transfer,59.17,2778.23,1.0,2020-02-04,n,59.111276595744684,2-4 Years,0,0
+CUST00261,63.0,male,62.0,month-to-month,bank transfer,29.8,1856.77,1.0,2021-08-27,false,29.947903225806453,4+ Years,0,1
+CUST00039,33.0,male,38.0,one year,credit card,67.13,2576.03,1.0,2023-09-12,n,67.79026315789474,2-4 Years,0,0
+CUST00202,69.0,female,22.0,one year,electronic check,96.14,2125.99,2.0,2023-03-18,0,96.63590909090908,1-2 Years,0,1
+CUST00401,74.0,female,44.0,two year,bank transfer,69.5,3063.05,1.0,2020-03-23,false,69.61477272727274,2-4 Years,0,1
+CUST00291,64.0,female,20.0,two year,electronic check,56.2,1124.05,1.0,2021-06-08,false,56.2025,1-2 Years,0,1
+CUST00190,35.0,male,7.0,month-to-month,mailed check,24.99,2125.99,1.0,2019-09-26,1,303.7128571428571,New,0,0
+CUST00252,46.0,male,16.0,one year,credit card,94.86,1522.66,0.0,2023-01-06,no,95.16625,1-2 Years,0,0
+CUST00113,49.0,male,32.0,month-to-month,mailed check,60.6,2125.99,2.0,2021-02-18,false,66.4371875,2-4 Years,0,0
+CUST00184,57.0,f,31.0,month-to-month,mailed check,105.9,3298.4,1.0,2023-07-20,no,106.4,2-4 Years,0,0
+CUST00153,70.0,male,18.0,one year,mailed check,72.68,1308.8,0.0,2022-03-07,0,72.71111111111111,1-2 Years,0,1
+CUST00313,24.0,male,52.0,month-to-month,bank transfer,111.01,5780.88,0.0,2020-04-15,false,111.17076923076924,4+ Years,0,0
+CUST00326,31.0,unknown,22.0,two year,bank transfer,81.25,1806.64,2.0,2023-04-25,n,82.12,1-2 Years,0,0
+CUST00192,53.0,f,2.0,one year,credit card,87.06,184.89,0.0,2021-08-18,n,92.445,New,0,0
+CUST00045,21.0,m,43.0,month-to-month,bank transfer,71.07,3050.46,1.0,2022-01-05,yes,70.94093023255815,2-4 Years,0,0
+CUST00276,45.0,male,2.0,month-to-month,mailed check,36.73,69.35,1.0,2021-07-21,true,34.675,New,0,0
+CUST00007,22.0,male,3.0,month-to-month,bank transfer,106.99,311.84,1.0,2022-09-17,yes,103.94666666666666,New,0,0
+CUST00251,28.0,female,24.0,month-to-month,electronic check,81.51,1952.15,0.0,2019-08-24,0,81.33958333333334,1-2 Years,0,0
+CUST00312,45.0,m,26.0,two year,mailed check,66.09,1708.83,1.0,2019-08-19,false,65.72423076923077,2-4 Years,0,0
+CUST00076,45.0,male,71.0,two year,credit card,56.61,4035.7,4.0,2022-09-26,true,56.84084507042253,4+ Years,1,0
+CUST00001,23.0,female,19.0,month-to-month,bank transfer,57.71,1098.39,1.0,2022-10-11,1,57.81,1-2 Years,0,0
+CUST00392,28.0,female,1.0,one year,credit card,60.73,54.07,1.0,2022-10-03,no,54.07,New,0,0
+CUST00384,31.0,f,42.0,one year,electronic check,74.05,3107.35,1.0,2019-05-24,false,73.98452380952381,2-4 Years,0,0
+CUST00069,22.0,female,48.0,month-to-month,mailed check,77.03,3698.91,2.0,2020-05-14,n,77.060625,2-4 Years,0,0
+CUST00168,27.0,m,64.0,month-to-month,electronic check,76.22,4892.32,1.0,2020-11-22,false,76.4425,4+ Years,0,0
+CUST00393,38.0,female,3.0,month-to-month,bank transfer,47.38,153.53,1.0,2021-03-18,0,51.17666666666667,New,0,0
+CUST00219,43.0,male,16.0,month-to-month,bank transfer,59.16,949.6,2.0,2020-04-04,no,59.35,1-2 Years,0,0
+CUST00043,57.0,unknown,50.0,two year,electronic check,82.61,4100.22,0.0,2021-07-30,no,82.0044,4+ Years,0,0
+CUST00367,44.0,female,41.0,one year,mailed check,91.43,3741.95,0.0,2022-01-19,n,91.2670731707317,2-4 Years,0,0
+CUST00346,32.0,male,64.0,two year,credit card,81.35,5194.67,1.0,2022-01-03,false,81.16671875,4+ Years,0,0
+CUST00073,44.0,male,30.0,two year,electronic check,77.27,2318.75,1.0,2021-01-11,n,77.29166666666667,2-4 Years,0,0
+CUST00024,70.0,female,57.0,one year,bank transfer,78.1,4439.75,0.0,2023-01-02,n,77.89035087719299,4+ Years,0,1
+CUST00399,33.0,female,60.0,month-to-month,mailed check,113.19,2125.99,0.0,2022-10-16,n,35.433166666666665,4+ Years,0,0
+CUST00186,43.0,male,2.0,month-to-month,bank transfer,27.21,68.33,0.0,2021-10-19,0,34.165,New,0,0
+CUST00349,28.0,female,17.0,month-to-month,mailed check,94.89,1619.82,1.0,2023-07-29,false,95.2835294117647,1-2 Years,0,0
+CUST00104,18.0,male,14.0,month-to-month,mailed check,76.91,2125.99,5.0,2023-08-03,1,151.85642857142855,1-2 Years,1,0
+CUST00408,26.0,male,48.0,month-to-month,bank transfer,86.19,4123.49,1.0,2020-12-08,n,85.90604166666667,2-4 Years,0,0
+CUST00212,58.0,unknown,50.0,month-to-month,electronic check,57.82,2900.78,0.0,2019-10-17,n,58.015600000000006,4+ Years,0,0
+CUST00068,39.0,unknown,6.0,month-to-month,bank transfer,94.5,557.26,0.0,2020-11-15,yes,92.87666666666667,New,0,0
+CUST00026,54.0,f,3.0,two year,bank transfer,109.28,336.61,0.0,2022-08-18,1,112.20333333333333,New,0,0
+CUST00197,37.0,female,70.0,month-to-month,bank transfer,98.71,6934.6,2.0,2020-08-17,n,99.0657142857143,4+ Years,0,0
+CUST00176,44.0,female,7.0,month-to-month,bank transfer,62.32,432.26,0.0,2020-11-13,no,61.75142857142857,New,0,0
