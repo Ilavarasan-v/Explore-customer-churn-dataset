@@ -1,71 +1,140 @@
-# Day 2 Task — Clean & Prepare the Customer Churn Dataset
+# Day 3 Task Train and Evaluate a Churn Prediction Model
 
 ## What this is
 
-`messy_customer_churn.csv` is a telecom customer dataset with **431 rows** and
-a `has_churned` target column this is real world messy, not textbook-clean.
-It has missing values, inconsistent formatting, duplicates, and outliers, all
-mixed in with a genuine underlying signal.
+Use the **cleaned, feature engineered dataset you created during Day 2**. This should include your preprocessing, feature engineering, and target column (`has_churned`, where `0 = stayed` and `1 = churned`).
 
-**This dataset feeds directly into Day 3**, where you'll train a model to
-predict churn using what you clean and engineer today. Decisions you make
-today (how you handle missing values, outliers, encoding) will affect what
-you're able to do tomorrow so make choices you can defend, not just ones
-that make the errors go away.
+Your Day 3 work should build directly on your own Day 2 output rather than using a provided reference dataset.
+
+---
 
 ## What to do
 
-### 1. Explore first (don't touch anything yet)
-Load the data and actually look at it before cleaning:
-- What are the dtypes? Do they match what the values actually represent?
-- What does each column's value distribution look like?
-- Where is data missing and does it look random or systematic?
-- Are there duplicate rows or duplicate customers?
-- Are there values that are technically valid but practically impossible
-  (e.g. an age of 199)?
+### 1. Set up a proper evaluation split
 
-### 2. Clean the data
-For each issue you find, fix it and know *why* you fixed it that way:
-- Standardize inconsistent categorical values (e.g. the same category spelled
-  multiple ways)
-- Convert columns to the correct dtype (numbers stored as text, currency
-  symbols, etc.)
-- Decide how to handle missing values per column drop, impute, or flag
-  and be ready to justify the choice per column, not as one blanket rule
-- Decide how to handle outliers are they data-entry errors to fix/remove,
-  or real extreme values to keep?
-- Handle duplicate rows/customers
-- Parse inconsistent date formats into one consistent format
+Split your dataset into training and testing sets (e.g. 80/20).
 
-### 3. Engineer features
-Add at least 3 engineered features that could plausibly help predict churn
-tomorrow. Some ideas (you don't have to use these better if you think of
-your own):
-- Something derived from tenure or signup date
-- A ratio or derived value from the charge columns
-- A binned/bucketed version of a continuous variable
-- Something derived from support ticket volume
+Think carefully about whether a simple random split is appropriate or whether you should **stratify on the target**. Churn datasets are often imbalanced, so your split should preserve the class distribution where appropriate.
 
-### 4. Write a short EDA report (`EDA_REPORT.md`)
-In your own words, cover:
-- What was wrong with the raw data (be specific which columns, what kind
-  of issue, roughly how many rows affected)
-- The choices you made cleaning each issue, and why
-- What you found exploring the data anything that looks related to churn?
-- The features you engineered and your reasoning for each
+---
 
-### 5. Deliverables
-- `clean_customer_churn.csv` your cleaned, feature engineered dataset
-- Your cleaning/feature engineering code (script or notebook)
-- `EDA_REPORT.md`
-- Incremental git commits, not one dump at the end
+### 2. Train two different models
+
+Choose **two meaningfully different machine learning models** to predict `has_churned`.
+
+Examples include:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- XGBoost (optional)
+
+Perform appropriate preprocessing:
+
+- Encode categorical variables.
+- Scale numerical features if required by the model.
+- Fit preprocessing **only on the training data** to avoid data leakage.
+
+---
+
+### 3. Evaluate and compare
+
+Evaluate both models on the held out test set and report:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
+
+Then answer the following questions:
+
+- Which evaluation metric matters most for a churn prediction problem, and why?
+- What is the business cost of false positives versus false negatives?
+- Which model would you recommend deploying, and why?
+
+---
+
+### 4. Examine your features critically
+
+Before finalizing your model:
+
+- Check correlations between features and the target.
+- Check correlations among features to identify multicollinearity.
+- Think about whether every feature would actually be available **at the time a prediction needs to be made** in a real business scenario.
+- If you discover any feature that could introduce target leakage or unrealistic information, explain your reasoning and remove it if necessary.
+
+---
+
+### 5. Check for overfitting
+
+Compare training and testing performance for both models.
+
+If training performance is significantly better than testing performance:
+
+- Explain why you believe overfitting occurred.
+- Describe how you would address it (for example: regularization, pruning, fewer features, simpler models, cross-validation, or collecting more data).
+
+---
+
+### 6. Write a short report (`MODEL_REPORT.md`)
+
+Your report should include:
+
+- Train/test split strategy
+- Preprocessing pipeline
+- Models used
+- Evaluation metrics (side by side comparison)
+- Which metric you prioritized and why
+- Final model recommendation
+- Feature analysis and any removed features
+- Evidence of overfitting (if any) and how you handled it
+- What you would improve with more time
+
+---
+
+### 7. Deliverables
+
+Submit:
+
+- Your training and evaluation code (Notebook or Python script)
+- `MODEL_REPORT.md`
+- Your cleaned Day 2 dataset
+- Git commits showing your progress
+
+---
 
 ## What we're looking for
 
-- Whether you actually inspect data before changing it, rather than writing
-  cleaning code on autopilot
-- Whether your handling of missing values and outliers is reasoned per column,
-  not a single copy pasted approach applied everywhere
-- Whether your engineered features make domain sense for predicting churn
-- Whether you can explain every choice when asked
+- Correct, leak free train/test methodology
+- Appropriate preprocessing performed only on training data
+- Thoughtful model comparison
+- Business focused metric selection
+- Critical examination of features for leakage and usefulness
+- Clear explanations for every modeling decision
 
+---
+
+## If you have time left
+
+- Try a third model.
+- Perform hyperparameter tuning.
+- Use cross validation.
+- Examine feature importances or model coefficients.
+- Compare your findings with the insights from your Day 2 exploratory analysis.
+
+---
+
+## This afternoon
+
+Be prepared to present:
+
+- Both models and their results
+- Why you selected your evaluation metric
+- Why you recommend your chosen model
+- Any feature engineering or feature removal decisions
+- Any overfitting you observed
+- What you would improve with more time
+
+You should also expect a live request to modify part of your modeling pipeline and explain the impact of the change.
